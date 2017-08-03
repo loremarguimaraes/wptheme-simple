@@ -34,8 +34,19 @@ header h1 {
 	overflow: auto;
 }
 
+.clr {
+	clear:both;
+}
+
 .main {
 	margin: 15px 0;
+	float: left;
+	width: 68%;
+}
+
+.sidebar {
+	float:right;
+	width:28%;
 }
 
 footer {
@@ -90,5 +101,22 @@ article.post a.button {
 
 .main-nav a {
 	color: #fff;
+	text-decoration: none;
+}
+
+.side-widget{
+	border: 1px #ccc solid;
+	padding: 10px 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.side-widget li {
+	list-style: none;
+	line-height: 2.2em;
+	border-bottom: dotted 1px #ccc;
+}
+
+.side-widget a {
 	text-decoration: none;
 }
