@@ -22,5 +22,6 @@
 			<?php echo wpautop('Sorry, no posts were found.')?>
 			<!-- wpautop converts double line breaks to paragraphs -->
 		<?php endif; ?>
+		<?php comments_template(); ?>
 	</div>
 <?php get_footer(); ?>

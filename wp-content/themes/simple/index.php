@@ -10,7 +10,11 @@
 						</a>
 					</h3>
 					<div class="meta">
-						Created By <?php the_author(); ?> on <?php the_date('l jS \of F Y h:i:s A'); ?>
+						Created By 
+						<a href="<?php get_author_posts_url(get_the_author_meta('ID')); ?>">
+							<?php the_author(); ?> 
+						</a>
+						on <?php the_date('l jS \of F Y h:i:s A'); ?>
 					</div>
 					<?php if(has_post_thumbnail()) : ?>
 						<div class="post-thumbnail">
